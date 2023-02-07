@@ -1,0 +1,415 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+body {
+    background: url(back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.label {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.label h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#Email {
+    padding-left: 7%;
+    padding-top: 30px;
+}
+
+#Email p {
+    font-size: 19px;
+
+}
+
+#Email input {
+    width: 400px;
+    height: 30px;
+}
+
+#Password {
+    padding-left: 7%;
+    padding-top: 30px;
+}
+
+#Password p {
+    font-size: 19px;
+
+}
+
+.eye-icon {
+    font-size: 20px;
+    position: relative;
+    right: 30px;
+    top: 4px;
+}
+
+#Password input {
+    width: 400px;
+    height: 30px;
+}
+
+.from-link a {
+    margin-left: 35%;
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.login {
+    margin-top: 20px;
+    padding-left: 7%;
+}
+
+.login button {
+    width: 400px;
+    height: 30px;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: rgb(67, 67, 236);
+    border: none;
+    color: white;
+}
+
+.login button:hover {
+    background-color: rgb(99, 99, 247);
+}
+
+.from-Link {
+    margin-left: 27%;
+    margin-top: 2%;
+    font-size: 17px;
+}
+
+.from-Link a {
+    text-decoration: none;
+}
+
+.line {
+    margin-left: 7%;
+    width: 400px;
+    height: 1px;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.line::before {
+    content: "or";
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 0 15px;
+
+}
+
+.facebook {
+    margin-top: 20px;
+    padding-left: 7%;
+}
+
+.Facebook {
+    position: relative;
+    right: 85%;
+    top: 5px;
+    background-color: white;
+    border-radius: 50%;
+    color: blue;
+    font-size: 23px;
+}
+
+
+.facebook button {
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(67, 67, 236);
+    border: none;
+
+}
+
+.facebook a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/*.facebook img {
+    width: 25px;
+    position: relative;
+    right: 30%;
+    top: 7%;
+}*/
+
+.Google {
+    margin-top: 20px;
+    padding-left: 7%;
+}
+
+.google {
+    position: relative;
+    right: 85%;
+    font-size: 25px;
+    top: 5px;
+    background: linear-gradient(red, red, red, yellow, blue, green, green, blue, blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.Google button {
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.Google a {
+    text-decoration: none;
+}
+
+/*.Google a {
+    position: relative;
+    bottom: 15%;
+}
+
+.Google img {
+    width: 25px;
+    position: relative;
+    right: 30%;
+    top: 5%;
+}*/
+
+
+/*for signup*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+body {
+    background: url(back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.label {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.label h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#Email {
+    padding-left: 7%;
+    padding-top: 30px;
+}
+
+#Email p {
+    font-size: 19px;
+
+}
+
+#Email input {
+    width: 400px;
+    height: 30px;
+}
+
+#password {
+    padding-left: 7%;
+    padding-top: 30px;
+}
+
+#Password p {
+    font-size: 19px;
+
+}
+
+.eye-icon {
+    font-size: 20px;
+    position: relative;
+    right: 30px;
+    top: 4px;
+}
+
+#password input {
+    width: 400px;
+    height: 30px;
+}
+
+.from-link a {
+    margin-left: 35%;
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.login {
+    margin-top: 20px;
+    padding-left: 7%;
+}
+
+.login button {
+    width: 400px;
+    height: 30px;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: rgb(67, 67, 236);
+    border: none;
+    color: white;
+}
+
+.login button:hover {
+    background-color: rgb(99, 99, 247);
+}
+
+.from-Link {
+    margin-left: 27%;
+    margin-top: 2%;
+    font-size: 17px;
+}
+
+.from-Link a {
+    text-decoration: none;
+}
+
+.line {
+    margin-left: 7%;
+    width: 400px;
+    height: 1px;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.line::before {
+    content: "or";
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 0 15px;
+
+}
+
+.facebook {
+    margin-top: 20px;
+    padding-left: 7%;
+}
+
+.Facebook {
+    position: relative;
+    right: 85%;
+    top: 5px;
+    background-color: white;
+    border-radius: 50%;
+    color: blue;
+    font-size: 23px;
+}
+
+
+.facebook button {
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(67, 67, 236);
+    border: none;
+
+}
+
+.facebook a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/*.facebook img {
+    width: 25px;
+    position: relative;
+    right: 30%;
+    top: 7%;
+}*/
+
+.Google {
+    margin-top: 20px;
+    padding-left: 7%;
+}
+
+.google {
+    position: relative;
+    right: 85%;
+    font-size: 25px;
+    top: 5px;
+    background: linear-gradient(red, red, red, yellow, blue, green, green, blue, blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.Google button {
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.Google a {
+    text-decoration: none;
+}
+
+/*.Google a {
+    position: relative;
+    bottom: 15%;
+}
+
+.Google img {
+    width: 25px;
+    position: relative;
+    right: 30%;
+    top: 5%;
+}*/
